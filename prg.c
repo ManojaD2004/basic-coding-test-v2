@@ -11,7 +11,7 @@ struct Person
     int age;
     long int bank_no;
     long int phone_no;
-    int is_suspended; // It's of to use int as boolean, but remember it should be only 0 and 1!
+    int is_suspended; // It's ok to use int as boolean, but remember it should be only 0 and 1!
 };
 
 struct Person person_details[100];

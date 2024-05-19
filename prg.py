@@ -13,7 +13,7 @@ class Person:
         self.bank_no = bank_no + size # unique bank number
         self.phone_no = phone_no 
         self.is_suspended = 1 if amount < 500 else 0
-        # It's of to use int as boolean, but remember it should be only 0 and 1!
+        # It's ok to use int as boolean, but remember it should be only 0 and 1!
 
 # 1. b. create person
 def create_person(name, sex, amount, age, phone_no):
